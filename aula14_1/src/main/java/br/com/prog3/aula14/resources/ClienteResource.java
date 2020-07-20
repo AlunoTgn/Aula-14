@@ -1,12 +1,9 @@
 package br.com.prog3.aula14.resources;
 
-import java.util.ArrayList;
-
 import org.hibernate.mapping.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +12,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import br.com.prog3.aula14.domain.Cliente;
 import br.com.prog3.aula14.service.ClienteService;
 import net.bytebuddy.dynamic.DynamicType.Builder.FieldDefinition.Optional;
