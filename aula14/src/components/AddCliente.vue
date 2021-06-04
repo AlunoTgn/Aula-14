@@ -4,11 +4,6 @@
 <div class="form-group">
 <label for="nome">Nome</label>
 <input type="text" class="form-control" id="nome" required
-Campus Taguatinga
-Curso: ABI - Ciência da Computação
-Disciplina: Programação de Computadores III
-Professor: José Gonçalo dos Santos
-Professor José Gonçalo dos Santos (jose.santos@ifb.edu.br)
 v-model="cliente.nome" name="nome">
 </div>
 <div class="form-group">
